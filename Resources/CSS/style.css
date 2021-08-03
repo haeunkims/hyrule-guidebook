@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: white;
+  color: #292828;
+  font-family: "Lato", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+/* -------FONT---------*/
+@font-face {
+  font-family: "zelda";
+  src: url(FONTS\ /Triforce.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+/* -------HEADINGS---------*/
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  font-size: 370%;
+}
+ul {
+  list-style-type: none;
+}
+/* -------NAV---------*/
+
+.logo {
+  margin-left: 1%;
+  margin-top: 15px;
+  height: 100px;
+  width: auto;
+  float: left;
+}
+.main-nav2 {
+  float: right;
+  margin-top: 27px;
+  font-size: 81%;
+  color: white;
+}
+.main-nav2 li {
+  display: inline-block;
+  margin-right: 20px;
+}
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* -------HEADER---------*/
+header {
+  background: linear-gradient(to bottom right, #19253f 80%, #292f49 100%);
+  height: 65vh;
+  color: white;
+}
+.header-text {
+  position: absolute;
+  width: 100vh;
+  top: 25%;
+  left: 33%;
+  transform: translate(-45%, -25%);
+}
+.header-text h2 {
+  font-family: zelda;
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+.header-text p {
+  font-size: 20px;
+  top: 30%;
+}
