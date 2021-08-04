@@ -93,21 +93,37 @@ header {
   list-style: none;
   float: right;
 }
+/* -------MAIN PAGE---------*/
+.sidebar,
+.information {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
 /* -------SIDEBAR---------*/
 .sidebar {
   float: left;
-  width: 25%;
+  width: 22%;
   height: 75vh;
-  border: 1px solid black;
-  padding: 50px;
-  margin: 20px;
+  padding: 20px;
+  margin-right: 5px;
+  margin-left: 15px;
 }
-.sidenav h2 {
-  color: blueviolet;
+.sidenav h4 {
+  font-family: zelda;
+  color: blue;
   text-align: center;
-  border-bottom: 5px solid blueviolet;
+  border-bottom: 5px solid blue;
 }
-.side-row .side-col {
+/* .side-row {
+  text-align: center;
+  width: 50vh;
+  height: 50px;
+  border: 1px solid yellow;
+  padding: 10px;
+  margin: 5px;
+} */
+.side-col .side-row {
   text-align: center;
   width: 50vh;
   height: 50px;
@@ -115,3 +131,46 @@ header {
   padding: 10px;
   margin: 5px;
 }
+
+/* -------INFORMATION---------*/
+.information {
+  float: right;
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.information h2 {
+  font-family: zelda;
+  color: black;
+  text-align: center;
+  border-bottom: 3px solid yellow;
+  border-bottom-h: 5px;
+}
+
+.mainpic {
+  margin-top: 25px;
+  width: 100%;
+}
+.inforow {
+  text-align: center;
+  text-decoration: underline solid pink;
+  margin: 50px;
+  padding-top: 30px;
+}
+
+/* -------FOOTER---------*/
+/* footer {
+  background-color: #797676;
+  padding: 40px;
+  font-size: 80%;
+}
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+.footer-nav li {
+  display: inline-block;
+  margin-right: 20px;
+} */
