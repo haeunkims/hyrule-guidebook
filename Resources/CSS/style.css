@@ -88,3 +88,30 @@ header {
   font-size: 20px;
   top: 30%;
 }
+
+.header-links {
+  list-style: none;
+  float: right;
+}
+/* -------SIDEBAR---------*/
+.sidebar {
+  float: left;
+  width: 25%;
+  height: 75vh;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+.sidenav h2 {
+  color: blueviolet;
+  text-align: center;
+  border-bottom: 5px solid blueviolet;
+}
+.side-row .side-col {
+  text-align: center;
+  width: 50vh;
+  height: 50px;
+  border: 1px solid yellow;
+  padding: 10px;
+  margin: 5px;
+}
