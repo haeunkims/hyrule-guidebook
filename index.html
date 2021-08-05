@@ -29,104 +29,167 @@ href="ExtraResources/CSS/ionicons.min.css"
 
     <title>Hyrule GuideBook</title>
   </head>
-  <body></body>
+  <body>
     <header>
+       <!-- Logo & about/searchBar -->
       <nav>
-        <div class="leftnav">
-          <img src="Resources/imgs/zeldaZ.png" alt="logopic" class="logo" />
-        </div>
-        <div class="right-nav">
-          <ul class="main-nav2">
-            <form id="form" role="search">
-              <li>
-                <a href="#">About</a>
-            </li>
-              <li>
-                <input
-                  type="search"
-                  id="query"
-                  name="q"
-                  placeholder="Search"
-                  aria-label="Search through site content">
-              </li>
-          </ul>
-        </div>
-      </nav>
+        <div class="container-fluid">
+              <img src="Resources/imgs/zeldaZ.png" alt="logopic" class="logo" />
+              <ul class="right-nav">
+                <form id="form" role="search">
+                  <li>
+                    <a href="#">About</a>
+                </li>
+                  <li>
+                    <input
+                      type="search"
+                      id="query"
+                      name="q"
+                      placeholder="Search"
+                      aria-label="Search through site content">
+                  </li>
+              </ul>
+            </div>
+          </nav>
+     
+ <!-- HyruleGuidebook&Description -->
       <div class = "header-text">
         <h2>Hyrule GuideBook</h2>
         <p> write a short description of the website and its content</p>
       </div>
 
-
+       <!-- Icons to share link
+       <div class="container-fluid">
+         <div class="row">
+          <div class="col align-self-end">
+            <ul class = "send-link">
+              <li><p>Send To:</p></li>
+              <li><a href ='#'>Copy</a></li>
+              <li><a href ='#'>Email</a></li>
+              <li><a href ='#'>Send Sns</a></li>  
+            </ul>
+          </div>
+         </div>
+       </div> -->
     </header>
-  <section class ="sidebar">
-    <div class ='container sidenav'>
+
+
+  <section class ="main">
+    <div class ='container-fluid'>
+      <div class ="row">
+      <div class = 'col-sm-3 sidenavcol'>
       <h4> NAVI </h4>
       
       <div class="row side-row">
         <div class = 'col side-col'>
-          <p>creatures</p>
+          <div id="images">
+            <a href="http://google.com">
+                <img src="Resources/imgs/creatures.png" width="25px" height="25px">
+                <div class="caption">Creatures</div>
+            </a>
+         </div> 
         </div>
         <div class = 'col side-col'>
-          <p>equipment</p>
+          <div id="images">
+            <a href="http://google.com">
+                <img src="Resources/imgs/equipment.png" width="25px" height="25px">
+                <div class="caption">Equpment</div>
+            </a>
+         </div> 
         </div>  
         </div>
 
         <div class="row side-row">
           <div class = 'col side-col'>
-            <p>materials</p>
+            <div id="images">
+              <a href="http://google.com">
+                  <img src="Resources/imgs/materials.png" width="25px" height="25px">
+                  <div class="caption">Materials</div>
+              </a>
+           </div>
            </div> 
           <div class = 'col side-col'>
-            <p>treasure</p>
-          </div>  
+            <div id="images">
+              <a href="http://google.com">
+                  <img src="Resources/imgs/treasure.png" width="25px" height="25px">
+                  <div class="caption">Treasure</div>
+              </a>
+           </div> 
+        </div>      
         </div>
-        
         <div class="row side-row">
           <div class = 'col side-col'>
-            <p>shrines</p>
+            <div id="images">
+              <a href="http://google.com">
+                  <img src="Resources/imgs/monsters.png" width="25px" height="25px">
+                  <div class="caption">Materials</div>
+              </a>
+           </div> 
           </div>
           <div class = 'col side-col'>
-            <p>monsters</p>
+            <div id="images">
+              <a href="http://google.com">
+                  <img src="Resources/imgs/shrine.png" width="25px" height="25px">
+                  <div class="caption">Materials</div>
+              </a>
+           </div> 
           </div>    
-      </div>
-  </section>
+          </div>
+        
+    </div>
 
-  <section class = information>
-    <div container>
+        <div class = 'col-lg  infocol'>
       <h2>INFORMATION</h2>
       <img src ="Resources/imgs/mainpic.jpeg" alt ="zeldainfopic" class = "mainpic"/>
       <div class="row inforow">
-        <p>section A </p>
+        <h5>Creatures</h5>
+        <p>Sometimes that's just the way it has to be. Sure, there were probably other options, but he didn't let them enter his mind. It was done and that was that. It was just the way it had to be.
+        </p>
       </div>
       <div class="row inforow">
-        <p>section B </p>
+        <h5>Equipment</h5>
+        <p>He couldn't move. His head throbbed and spun. He couldn't decide if it was the flu or the drinking last night. It was probably a combination of both.
+        </p>
       </div> <div class="row inforow">
-        <p>section C </p>
+        <h5> Materials</h5>
+        <p>He walked down the steps from the train station in a bit of a hurry knowing the secrets in the briefcase must be secured as quickly as possible. Bounding down the steps, he heard something behind him and quickly turned in a panic. There was nobody there but a pair of old worn-out shoes were placed neatly on the steps he had just come down. Had he past them without seeing them? It didn't seem possible. He was about to turn and be on his way when a deep chill filled his body.
+        </p>
       </div> <div class="row inforow">
-        <p>section D </p>
+        <h5>Treasure </h5>
+        <p>He watched as the young man tried to impress everyone in the room with his intelligence. There was no doubt that he was smart. The fact that he was more intelligent than anyone else in the room could have been easily deduced, but nobody was really paying any attention due to the fact that it was also obvious that the young man only cared about his intelligence.
+        </p>
       </div> <div class="row inforow">
-        <p>section E </p>
+        <h5>Monster </h5>
+       <p> The boy walked down the street in a carefree way, playing without notice of what was about him. He didn't hear the sound of the car as his ball careened into the road. He took a step toward it, and in doing so sealed his fate.</p>
       </div> <div class="row inforow">
-        <p>section F </p>
+        <h5>Shrines </h5>
+        <p>Barbara had been waiting at the table for twenty minutes. it had been twenty long and excruciating minutes. David had promised that he would be on time today. He never was, but he had promised this one time. She had made him repeat the promise multiple times over the last week until she'd believed his promise. Now she was paying the price.
+        </p>
       </div>
+      </div>
+
+
     </div>
+  </div>
   </section>
 
   
   <footer>
-    <div class = "container">
+    <div class = "container-fluid">
+  
       <ul class = "footer-nav">
         <li><a href ='#'>Twitter</a></li>
         <li><a href ='#'>Instagram</a></li>
         <li><a href ='#'>GitHub</a></li>
         <li><a href ='#'>LinkedIn</a></li>  
       </ul>
-
     </div>
-    <div class ="row">
+
+    <div class ="container-fluid copyright">
       <p>Copyright &copy; 2021 by HaeunKims</p>
     </div>
   </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
